@@ -1,0 +1,84 @@
+{
+  "Name": "SortByLowToHigh_UIVisionRPA_Positive_04",
+  "CreationDate": "2023-4-24",
+  "Commands": [
+    {
+      "Command": "run",
+      "Target": "SearchFieldCanBeSelected_UIVisionRPA_Positive_01",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=twotabsearchtextbox",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=twotabsearchtextbox",
+      "Value": "Razer DeathAdder Essential Gaming Mouse : 6400 DPI Optical Sensor - 5 Programmable Buttons - Mechanical Switches - Rubber Side Grips - Classic Black",
+      "Description": ""
+    },
+    {
+      "Command": "clickAndWait",
+      "Target": "id=nav-search-submit-button",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//span/span/span/span[2]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=s-result-sort-select_1",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "Store as string, Extract \"\\n\" from string, store as value.",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "storeText",
+      "Target": "//*[@id=\"search\"]/div/div/div/span/div/div[2]/div/div/div/div/div/div[2]/div/div/div[3]/div/div/div/div/a/span/span[2]/span[2]",
+      "Value": "first_product_price",
+      "Description": ""
+    },
+    {
+      "Command": "storeText",
+      "Target": "xpath=//*[@id=\"search\"]/div/div/div/span/div/div[4]/div/div/div/div/div/div[2]/div/div/div[3]/div/div/div/div/a/span/span[2]/span[2]",
+      "Value": "last_product_price",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript",
+      "Target": "return parseInt(${first_product_price}.replace(/\\\\n/g, ''), 10)",
+      "Value": "first_product_price_value",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript",
+      "Target": "return parseInt(${last_product_price}.replace(/\\\\n/g, ''), 10)",
+      "Value": "last_product_price_value",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript",
+      "Target": "if(${first_product_price_value} < ${last_product_price_value}){\n  return true;\n}else{\n  return false;\n}",
+      "Value": "test_result",
+      "Description": ""
+    },
+    {
+      "Command": "assert",
+      "Target": "test_result",
+      "Value": "true",
+      "Description": ""
+    }
+  ]
+}

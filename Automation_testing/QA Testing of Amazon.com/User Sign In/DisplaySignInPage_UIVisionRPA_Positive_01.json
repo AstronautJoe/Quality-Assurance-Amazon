@@ -1,0 +1,42 @@
+{
+  "Name": "DisplaySignInPage_UIVisionRPA_Positive_01",
+  "CreationDate": "2023-4-24",
+  "Commands": [
+    {
+      "Command": "comment",
+      "Target": "Clean Start of Amazon.com",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "run",
+      "Target": "/QA Testing of Amazon.com/reuse/Clean And Open Amazon",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "mouseOver",
+      "Target": "id=nav-link-accountList",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=nav-link-accountList",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "assertText",
+      "Target": "xpath=//*[@id=\"authportal-main-section\"]/div[2]/div/div/form/div/div/div/h1",
+      "Value": "Sign in",
+      "Description": ""
+    },
+    {
+      "Command": "assertElementPresent",
+      "Target": "id=ap_email",
+      "Value": "",
+      "Description": ""
+    }
+  ]
+}

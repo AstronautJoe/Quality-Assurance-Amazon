@@ -1,0 +1,72 @@
+{
+  "Name": "InvalidNameWithNonAlphabeticalCharactersExcept$=_UIVisionRPA_Negative_02",
+  "CreationDate": "2023-4-24",
+  "Commands": [
+    {
+      "Command": "run",
+      "Target": "DisplayUserRegistrationPage_UIVisionRPA_Positive_01",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=ap_customer_name",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=ap_customer_name",
+      "Value": "NoDollar%!*32 @#--}",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=ap_email",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=ap_email",
+      "Value": "johnmurdoch889@proton.me",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=ap_password",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=ap_password",
+      "Value": "village88123",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=ap_password_check",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=ap_password_check",
+      "Value": "village88123",
+      "Description": ""
+    },
+    {
+      "Command": "clickAndWait",
+      "Target": "id=continue",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "assertText",
+      "Target": "xpath=//*[@id=\"auth-error-message-box\"]/div/div/ul/li/span",
+      "Value": "There is a slight problem with your request. ",
+      "Description": ""
+    }
+  ]
+}

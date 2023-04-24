@@ -1,0 +1,42 @@
+{
+  "Name": "Clean and Open Amazon",
+  "CreationDate": "2023-4-24",
+  "Commands": [
+    {
+      "Command": "open",
+      "Target": "https://www.amazon.com/",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "deleteAllCookies",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "1000",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "refresh",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "1000",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "setWindowSize",
+      "Target": "1345x741",
+      "Value": "",
+      "Description": ""
+    }
+  ]
+}

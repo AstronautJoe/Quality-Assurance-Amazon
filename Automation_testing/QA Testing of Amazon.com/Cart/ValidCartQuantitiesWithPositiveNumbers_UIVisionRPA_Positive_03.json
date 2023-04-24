@@ -1,0 +1,84 @@
+{
+  "Name": "ValidCartQuantitiesWithPositiveNumbers_UIVisionRPA_Positive_03",
+  "CreationDate": "2023-4-24",
+  "Commands": [
+    {
+      "Command": "run",
+      "Target": "UnregisteredUserAddProductToCart_UIVisionRPA_Positive_02",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "clickAndWait",
+      "Target": "id=nav-cart-count",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=sc-cart-column",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=a-autoid-0-announce",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "linkText=3@POS=3",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"sc-active-Ca8223520-3d4d-4f8c-a330-28159458e2fe\"]/div[4]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"sc-active-Ca8223520-3d4d-4f8c-a330-28159458e2fe\"]/div[4]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "mouseOver",
+      "Target": "xpath=//*[@id=\"sc-active-a8223520-3d4d-4f8c-a330-28159458e2fe\"]/div[4]/div/div[2]/ul/li/span/a/span/span/span[2]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//div[4]/div[4]/div/div[2]/div/span/span/span/span/span/span/span",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//div[5]/div/div/ul/li[8]/a",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=sc-subtotal-label-buybox",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "assertText",
+      "Target": "id=sc-subtotal-label-buybox",
+      "Value": "Subtotal (10 items):",
+      "Description": ""
+    },
+    {
+      "Command": "assertText",
+      "Target": "id=nav-cart-count",
+      "Value": "10",
+      "Description": ""
+    }
+  ]
+}

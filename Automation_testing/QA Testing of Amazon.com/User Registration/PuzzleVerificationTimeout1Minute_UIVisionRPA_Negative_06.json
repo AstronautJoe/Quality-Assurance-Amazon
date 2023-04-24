@@ -1,0 +1,78 @@
+{
+  "Name": "PuzzleVerificationTimeout1Minute_UIVisionRPA_Negative_06",
+  "CreationDate": "2023-4-24",
+  "Commands": [
+    {
+      "Command": "run",
+      "Target": "DisplayUserRegistrationPage_UIVisionRPA_Positive_01",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=ap_customer_name",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=ap_customer_name",
+      "Value": "Deynie Belle",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=ap_email",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=ap_email",
+      "Value": "johnmurdoch889@proton.me",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=ap_password",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=ap_password",
+      "Value": "village88123",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=ap_password_check",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=ap_password_check",
+      "Value": "village88123",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=continue",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "62000",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "visualAssert",
+      "Target": "ErrorAlert_dpi_139.png",
+      "Value": "",
+      "Description": ""
+    }
+  ]
+}

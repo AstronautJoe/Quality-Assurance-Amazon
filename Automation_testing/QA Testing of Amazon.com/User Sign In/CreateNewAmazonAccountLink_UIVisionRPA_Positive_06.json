@@ -1,0 +1,24 @@
+{
+  "Name": "CreateNewAmazonAccountLink_UIVisionRPA_Positive_06",
+  "CreationDate": "2023-4-24",
+  "Commands": [
+    {
+      "Command": "run",
+      "Target": "DisplaySignInPage_UIVisionRPA_Positive_01",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "linkText=Create your Amazon account",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "assertText",
+      "Target": "xpath=//*[@id=\"ap_register_form\"]/div/div/h1",
+      "Value": "Create account",
+      "Description": ""
+    }
+  ]
+}

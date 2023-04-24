@@ -1,0 +1,54 @@
+{
+  "Name": "SearchFieldCanBeSelected_UIVisionRPA_Positive_01",
+  "CreationDate": "2023-4-24",
+  "Commands": [
+    {
+      "Command": "comment",
+      "Target": "Clean Start of Amazon.com",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "run",
+      "Target": "/QA Testing of Amazon.com/reuse/Clean And Open Amazon",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"nav-belt\"]/div[2]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=twotabsearchtextbox",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=twotabsearchtextbox",
+      "Value": "testinginput",
+      "Description": ""
+    },
+    {
+      "Command": "assertValue",
+      "Target": "id=twotabsearchtextbox",
+      "Value": "testinginput",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "End of test, now clearing search field",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=twotabsearchtextbox",
+      "Value": "",
+      "Description": ""
+    }
+  ]
+}

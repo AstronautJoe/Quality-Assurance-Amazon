@@ -1,0 +1,72 @@
+{
+  "Name": "SortReviewsByTopReviews_UIVisionRPA_Positive_10",
+  "CreationDate": "2023-4-24",
+  "Commands": [
+    {
+      "Command": "run",
+      "Target": "ProductNameLinksToProductDetailsPage_UIVisionRPA_Positive_02",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"reviewsMedley\"]/div/div[2]/div/div[2]/span[2]/div/div/ul",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//span/div/span/span/span/span/span",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "linkText=Most recent",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"reviewsMedley\"]/div/div[2]/div/div[2]/span[2]/div/div/ul",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"reviewsMedley\"]/div/div[2]/div/div[2]/span[2]/div/div/ul",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//span/div/span/span/span/span/span",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "linkText=Top reviews",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"reviewsMedley\"]/div/div[2]/div/div[2]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "assertElementPresent",
+      "Target": "xpath=//div/div/div[2]/a/i[@class='a-icon a-icon-star a-star-5 review-rating']",
+      "Value": "",
+      "Description": "first_rating"
+    },
+    {
+      "Command": "assertElementPresent",
+      "Target": "xpath=//div[8]/div/div/div[2]/a/i[@class='a-icon a-icon-star a-star-4 review-rating']",
+      "Value": "",
+      "Description": "last_rating"
+    }
+  ]
+}

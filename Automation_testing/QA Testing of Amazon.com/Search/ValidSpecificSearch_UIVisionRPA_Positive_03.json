@@ -1,0 +1,36 @@
+{
+  "Name": "ValidSpecificSearch_UIVisionRPA_Positive_03",
+  "CreationDate": "2023-4-24",
+  "Commands": [
+    {
+      "Command": "run",
+      "Target": "SearchFieldCanBeSelected_UIVisionRPA_Positive_01",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=twotabsearchtextbox",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=twotabsearchtextbox",
+      "Value": "Razer DeathAdder Essential Gaming Mouse : 6400 DPI Optical Sensor - 5 Programmable Buttons - Mechanical Switches - Rubber Side Grips - Classic Black",
+      "Description": ""
+    },
+    {
+      "Command": "clickAndWait",
+      "Target": "id=nav-search-submit-button",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "assertText",
+      "Target": "xpath=//*[@id=\"search\"]/div/div/div/span/div/div[2]/div/div/div/div/div/div[2]/div/div/div/h2",
+      "Value": "Razer DeathAdder Essential Gaming Mouse : 6400 DPI Optical Sensor - 5 Programmable Buttons - Mechanical Switches - Rubber Side Grips - Classic Black",
+      "Description": ""
+    }
+  ]
+}

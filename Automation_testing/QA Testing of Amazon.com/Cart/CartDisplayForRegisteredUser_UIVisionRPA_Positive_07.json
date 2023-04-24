@@ -1,0 +1,90 @@
+{
+  "Name": "CartDisplayForRegisteredUser_UIVisionRPA_Positive_07",
+  "CreationDate": "2023-4-24",
+  "Commands": [
+    {
+      "Command": "comment",
+      "Target": "Clean Start of Amazon.com",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "run",
+      "Target": "/QA Testing of Amazon.com/reuse/Clean And Open Amazon",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "clickAndWait",
+      "Target": "id=nav-link-accountList-nav-line-1",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=authportal-main-section",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=ap_email",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=ap_email",
+      "Value": "johnmurdoch886@proton.me",
+      "Description": ""
+    },
+    {
+      "Command": "clickAndWait",
+      "Target": "xpath=//input[@id='continue']",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"authportal-main-section\"]/div[2]/div/div/form/div/div/div",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=ap_password",
+      "Value": "village88123",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"a-page\"]/div",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=signInSubmit",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "Breakpoint incase system displays captcha puzzle",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//div[@id='nav-cart-count-container']/span[2]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "assertText",
+      "Target": "xpath=//*[@id=\"sc-active-cart\"]/div/div/div/h1",
+      "Value": "Your Amazon Cart is empty.",
+      "Description": ""
+    }
+  ]
+}

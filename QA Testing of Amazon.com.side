@@ -1,0 +1,160 @@
+{
+  "id": "f74f45a5-f849-4673-8014-7db97668d117",
+  "version": "2.0",
+  "name": "QA Testing of Amazon.com",
+  "url": "https://www.amazon.com/",
+  "tests": [{
+    "id": "8236f91d-98ac-4b5d-b2d1-e606f38f2e51",
+    "name": "UnregisteredUserCartDisplay_Selenium_Positive_01",
+    "commands": [{
+      "id": "7b31d486-fe3c-4554-ba6f-2f88def01eb6",
+      "comment": "Clear all known Amazon Cookies for fresh slate.",
+      "command": "executeScript",
+      "target": "var cookies = document.cookie.split(\";\");  for (var i = 0; i < cookies.length; i++) {   var cookie = cookies[i];   var eqPos = cookie.indexOf(\"=\");   var name = eqPos > -1 ? cookie.substr(0, eqPos) : cookie;   document.cookie = name + \"=;expires=Thu, 01 Jan 1970 00:00:00 GMT; domain=amazon.com; path=/\"; }",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e68f4251-f071-4a27-916e-cf820206c6ca",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a37061b6-9fce-436c-9d31-3777c1509090",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1345x741",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d44f353a-3a33-4479-b0cc-631c80307fac",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='nav-cart-count-container']/span[2]",
+      "targets": [
+        ["css=.nav-cart-icon", "css:finder"],
+        ["xpath=//div[@id='nav-cart-count-container']/span[2]", "xpath:idRelative"],
+        ["xpath=//a[4]/div/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c3a8d77-35f1-40b4-8785-b0ba9f4a6636",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//h2",
+      "targets": [
+        ["css=.sc-your-amazon-cart-is-empty > h2", "css:finder"],
+        ["xpath=//div[@id='sc-active-cart']/div/div/div[2]/div/h2", "xpath:idRelative"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Your Amazon Cart is empty')]", "xpath:innerText"]
+      ],
+      "value": "Your Amazon Cart is empty"
+    }, {
+      "id": "953a4d2c-b73b-4e78-9f96-2c56d7f18dfd",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "4bc8787a-11c5-44ad-9cf9-0dc736abac09",
+    "name": "ValidUserRegistration_Selenium_Positive_02",
+    "commands": [{
+      "id": "4e150b5c-3ffd-4521-a418-08f51698fcc8",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "af1b563b-c846-42cc-a0cb-91692ca5bf2e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1345x741",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "08f2d93c-9b55-4eee-8cca-6353fa1575fc",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//input[@id='twotabsearchtextbox']",
+      "targets": [
+        ["id=twotabsearchtextbox", "id"],
+        ["name=field-keywords", "name"],
+        ["css=#twotabsearchtextbox", "css:finder"],
+        ["xpath=//input[@id='twotabsearchtextbox']", "xpath:attributes"],
+        ["xpath=//form[@id='nav-search-bar-form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bee1e67a-a809-4354-9e37-ab897b018ad3",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//input[@id='twotabsearchtextbox']",
+      "targets": [
+        ["id=twotabsearchtextbox", "id"],
+        ["name=field-keywords", "name"],
+        ["css=#twotabsearchtextbox", "css:finder"],
+        ["xpath=//input[@id='twotabsearchtextbox']", "xpath:attributes"],
+        ["xpath=//form[@id='nav-search-bar-form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Logitech H390 Wired Headset"
+    }, {
+      "id": "42f6f27d-6c11-4073-b60a-5b91f5b77918",
+      "comment": "",
+      "command": "click",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "1cd5f225-b3a1-4f4e-927d-1026ab297934",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }, {
+    "id": "16308b96-7fd8-4928-aa2e-84b553673bdc",
+    "name": "User Sign In",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }, {
+    "id": "c2e89b0d-518e-4d12-8590-f4744ccbdfcb",
+    "name": "User Registration",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }, {
+    "id": "cc0a2cf4-aa5d-4d6a-b7b9-eb9def74c46b",
+    "name": "Cart",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }, {
+    "id": "44cc2853-b4b6-4a1d-9cb4-e28a7ea7bed7",
+    "name": "Search",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }, {
+    "id": "93688454-8806-4563-bc49-a79e295ff59f",
+    "name": "Product Details",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.amazon.com/"],
+  "plugins": []
+}

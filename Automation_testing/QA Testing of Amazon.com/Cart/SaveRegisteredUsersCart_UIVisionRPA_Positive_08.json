@@ -1,0 +1,90 @@
+{
+  "Name": "SaveRegisteredUsersCart_UIVisionRPA_Positive_08",
+  "CreationDate": "2023-4-24",
+  "Commands": [
+    {
+      "Command": "run",
+      "Target": "CartDisplayForRegisteredUser_UIVisionRPA_Positive_07",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=twotabsearchtextbox",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=twotabsearchtextbox",
+      "Value": "Charmin Ultra Gentle Toilet Paper, 18 Mega Rolls = 72 Regular Rolls",
+      "Description": ""
+    },
+    {
+      "Command": "clickAndWait",
+      "Target": "id=nav-search-submit-button",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "clickAndWait",
+      "Target": "xpath=//*[@id=\"search\"]/div/div/div/span/div/div[6]/div/div/div/div/div[2]/div/h2/a/span",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "clickAndWait",
+      "Target": "id=add-to-cart-button",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_CTRL+KEY_W}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "open",
+      "Target": "https://www.amazon.com/",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "clickAndWait",
+      "Target": "id=nav-cart-count",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "assertElementPresent",
+      "Target": "xpath=//*[@id=\"sc-active-Cc9d17d43-0dd2-4d66-ae39-d1216acfda11\"]/div[4]/div/div[2]/a/img",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "Delete Cart item to reset test conditions.",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "name=submit.delete.Cc9d17d43-0dd2-4d66-ae39-d1216acfda11",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "mouseOver",
+      "Target": "id=nav-link-accountList",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"nav-item-signout\"]/span",
+      "Value": "",
+      "Description": ""
+    }
+  ]
+}

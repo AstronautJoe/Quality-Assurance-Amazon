@@ -1,0 +1,48 @@
+{
+  "Name": "SaveUnregisteredUsersCart_UIVisionRPA_Positive_06",
+  "CreationDate": "2023-4-24",
+  "Commands": [
+    {
+      "Command": "run",
+      "Target": "UnregisteredUserAddProductToCart_UIVisionRPA_Positive_02",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_CTRL+KEY_W}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "open",
+      "Target": "https://www.amazon.com/",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "assertText",
+      "Target": "id=nav-cart-count",
+      "Value": "2",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=nav-cart",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "assertElementPresent",
+      "Target": "xpath=//*[@id=\"sc-active-C212cdd43-2655-43b1-b07d-5010092174ef\"]/div[4]/div/div/a/img",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "assertElementPresent",
+      "Target": "xpath=//*[@id=\"sc-active-C0481f47d-0121-49bf-be03-1394f0f682ed\"]/div[4]/div/div/a/img",
+      "Value": "",
+      "Description": ""
+    }
+  ]
+}

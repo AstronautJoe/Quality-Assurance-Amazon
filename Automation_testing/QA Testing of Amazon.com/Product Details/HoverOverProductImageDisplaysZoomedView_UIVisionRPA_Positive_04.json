@@ -1,0 +1,24 @@
+{
+  "Name": "HoverOverProductImageDisplaysZoomedView_UIVisionRPA_Positive_04",
+  "CreationDate": "2023-4-24",
+  "Commands": [
+    {
+      "Command": "run",
+      "Target": "ProductNameLinksToProductDetailsPage_UIVisionRPA_Positive_02",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "mouseOver",
+      "Target": "id=imgTagWrapperId",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "assertElementPresent",
+      "Target": "id=magnifierLens",
+      "Value": "",
+      "Description": ""
+    }
+  ]
+}

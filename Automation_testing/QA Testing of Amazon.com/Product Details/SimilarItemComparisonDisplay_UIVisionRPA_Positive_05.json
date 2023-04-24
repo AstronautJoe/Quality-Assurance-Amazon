@@ -1,0 +1,30 @@
+{
+  "Name": "SimilarItemComparisonDisplay_UIVisionRPA_Positive_05",
+  "CreationDate": "2023-4-24",
+  "Commands": [
+    {
+      "Command": "run",
+      "Target": "ProductNameLinksToProductDetailsPage_UIVisionRPA_Positive_02",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "mouseOver",
+      "Target": "id=comparison_table_title",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "mouseOver",
+      "Target": "id=comparison_image0",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "visualAssert",
+      "Target": "mouseimages_dpi_139.png",
+      "Value": "",
+      "Description": ""
+    }
+  ]
+}

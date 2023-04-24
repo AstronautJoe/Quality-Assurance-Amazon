@@ -1,0 +1,72 @@
+{
+  "Name": "ValidUserSignInWithEmailAddress_UIVisionRPA_Positive_02",
+  "CreationDate": "2023-4-24",
+  "Commands": [
+    {
+      "Command": "run",
+      "Target": "DisplaySignInPage_UIVisionRPA_Positive_01",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=ap_email",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=ap_email",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=ap_email",
+      "Value": "johnmurdoch886@proton.me",
+      "Description": ""
+    },
+    {
+      "Command": "clickAndWait",
+      "Target": "xpath=//input[@id='continue']",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=ap_password",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=ap_password",
+      "Value": "village88123",
+      "Description": ""
+    },
+    {
+      "Command": "clickAndWait",
+      "Target": "id=signInSubmit",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "Human Verification check or Log out to reset",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "mouseOver",
+      "Target": "id=nav-link-accountList",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"nav-item-signout\"]/span",
+      "Value": "",
+      "Description": ""
+    }
+  ]
+}

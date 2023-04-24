@@ -1,0 +1,7 @@
+Website title: Amazon
+Website link: https://www.amazon.com/
+Google Drive link: https://drive.google.com/drive/folders/1ijmkixmgH5YQ_IqTgsx8zK71WC9zC3aV?usp=sharing
+List of tests conducted:
+Manual testing: 48 test cases
+Automated Testing: 41 test cases
+Video Demo for Automated testing: https://youtu.be/ayHhsp_z9Vo

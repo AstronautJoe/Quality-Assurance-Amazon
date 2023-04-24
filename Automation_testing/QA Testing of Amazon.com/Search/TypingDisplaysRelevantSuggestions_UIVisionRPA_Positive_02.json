@@ -1,0 +1,42 @@
+{
+  "Name": "TypingDisplaysRelevantSuggestions_UIVisionRPA_Positive_02",
+  "CreationDate": "2023-4-24",
+  "Commands": [
+    {
+      "Command": "run",
+      "Target": "SearchFieldCanBeSelected_UIVisionRPA_Positive_01",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=twotabsearchtextbox",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=twotabsearchtextbox",
+      "Value": "mouse",
+      "Description": ""
+    },
+    {
+      "Command": "assertElementPresent",
+      "Target": "xpath=//*[@id=\"nav-flyout-searchAjax\"]/div[2]/div/div/div/div/div[contains(@aria-label, \"mouse\")]",
+      "Value": "",
+      "Description": "aria-label contains mouse"
+    },
+    {
+      "Command": "comment",
+      "Target": "End of test, now clearing search field",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=twotabsearchtextbox",
+      "Value": "",
+      "Description": ""
+    }
+  ]
+}

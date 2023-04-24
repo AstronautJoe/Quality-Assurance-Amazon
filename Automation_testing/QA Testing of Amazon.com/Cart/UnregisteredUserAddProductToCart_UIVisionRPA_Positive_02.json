@@ -1,0 +1,114 @@
+{
+  "Name": "UnregisteredUserAddProductToCart_UIVisionRPA_Positive_02",
+  "CreationDate": "2023-4-24",
+  "Commands": [
+    {
+      "Command": "comment",
+      "Target": "Clean Start of Amazon.com",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "run",
+      "Target": "/QA Testing of Amazon.com/reuse/Clean And Open Amazon",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//input[@id='twotabsearchtextbox']",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "xpath=//input[@id='twotabsearchtextbox']",
+      "Value": "100 Sheets 20\"X14\" White Gift Wrapping Tissue Paper Bulk for Gift Bags,Weddings Birthday Showers Arts Craft Party Favor Decoration",
+      "Description": ""
+    },
+    {
+      "Command": "clickAndWait",
+      "Target": "id=nav-search-submit-button",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"search\"]/div/div/div/span/div/div[5]/div/div/div/div/div[2]/span/a/div/img",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "clickAndWait",
+      "Target": "id=add-to-cart-button",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "assertText",
+      "Target": "xpath=//*[@id=\"NATC_SMART_WAGON_CONF_MSG_SUCCESS\"]/span",
+      "Value": "Added to Cart",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=twotabsearchtextbox",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=twotabsearchtextbox",
+      "Value": "Charmin Ultra Gentle Toilet Paper, 18 Mega Rolls = 72 Regular Rolls",
+      "Description": ""
+    },
+    {
+      "Command": "clickAndWait",
+      "Target": "id=nav-search-submit-button",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "XClick",
+      "Target": "u4kpee_dpi_139.png",
+      "Value": "",
+      "Description": "Click Product Name"
+    },
+    {
+      "Command": "clickAndWait",
+      "Target": "id=add-to-cart-button",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"sw-atc-details-single-container\"]/div[2]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "assertText",
+      "Target": "xpath=//*[@id=\"NATC_SMART_WAGON_CONF_MSG_SUCCESS\"]/span",
+      "Value": "Added to Cart",
+      "Description": ""
+    },
+    {
+      "Command": "assertElementPresent",
+      "Target": "xpath=//a/img",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "assertElementPresent",
+      "Target": "xpath=//div[3]/div[2]/span/div/a/img",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "assertText",
+      "Target": "id=nav-cart-count",
+      "Value": "2",
+      "Description": ""
+    }
+  ]
+}

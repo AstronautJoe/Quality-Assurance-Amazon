@@ -1,0 +1,30 @@
+{
+  "Name": "ProductGuidesAndDocumentsLink_UIVisionRPA_Positive_06",
+  "CreationDate": "2023-4-24",
+  "Commands": [
+    {
+      "Command": "run",
+      "Target": "ProductNameLinksToProductDetailsPage_UIVisionRPA_Positive_02",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "mouseOver",
+      "Target": "xpath=//*[@id=\"productDocuments_feature_div\"]/div/div/div/h2",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "Clicking the PDF Link loads the PDF to a new window which cannot be verified via automation",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "assertElementPresent",
+      "Target": "linkText=User Guide (PDF)",
+      "Value": "",
+      "Description": ""
+    }
+  ]
+}
